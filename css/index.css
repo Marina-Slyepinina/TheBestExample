@@ -88,15 +88,18 @@ a {
 
 .header {
 }
-.container {
+.header .container { display: flex;
 }
-.header-wrap {
+.header-wrap { 
 }
-.header-logo {
+.header-logo { 
+    margin-right: auto;
+    /* display: flex; */
+    /* flex-grow: 1; */
 }
-.header-nav {
+.header-nav { 
 }
-.header-list {
+.header-list { display: flex;
 }
 .header-item {
 }
